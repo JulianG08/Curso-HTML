@@ -1,0 +1,37 @@
+La etiqueta <form> define un formulario para la recolección de datos
+
+El input es la etiqueta más importante de los formularios pues es la encargado de la recolección de
+datos especificos pues tiene diferentes usos dependiendo de su atributo type
+
+Los valores del atributo type son variados, entre ellos podemos encontrar:
+
+-"text": Para ingresar texto (una sola linea)
+-"radio": Seleccionar varias opciones
+-"submit": Enviar el formulario
+
+A cada input se le asigna un atributo "name" el cual define la naturaleza o tipo de valor que debe
+ser ingresado
+
+En caso de que sea tipo radio el "name" sera el mismo pues es el mismo tipo de dato, pero se le
+agregaria el atributo "value" que que representaria las opciones
+
+En caso de que sea tipo submit tambien se le agregaria el atributo "value" con el valor "Enviar" que
+es el texto que mostrara el boton
+
+El atributo "action" define a donde serian enviados los datos para que sean procesados, va en la
+etiqueta <form>
+
+El atributo "target" (tambien va en la etiqueta <form>) define si se visualiza el resultado de
+enviar los datos en una nueva pestaña o se queda en la actual, por defecto el valor es "_self"
+
+El atributo "method" espefifica el método HTTP (GET O POST) cuando los datos sean enviados
+
+    Por defecto el valor es "GET", los datos que se ingresen serian visibles en la URL y esta
+    limitada a 2048 caracteres, es mejor para datos no seguros
+
+    POST es usado cuando los datos son confidenciales, este metodo no muestra información en la URL
+    y no tiene limitación
+
+El elemento <fieldset> es usado para agrupar datos relacionados en un formulario
+
+El elemento <legend> define el titulo del <fieldset>
