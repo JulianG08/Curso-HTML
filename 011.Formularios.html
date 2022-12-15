@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!--El atributo id sirve para identificar una etiqueta unica para así aplicarle su estilo
+        con CSS-->
+        <input type="text" id="nombre" name="name">
+        <br>
+        <!--De esta forma solo se puede ingresar un correo y el label sirve para asignar
+        correctamente a que corresponde cierto input-->
+        <label for="correo">Email</label>
+        <input type="email" id="correo" name="email">
+        <br>
+        <!--El select es para diferentes opciones, estas seran desplegadas, con option se define
+        cada una de las opciones. El option puede tener el atributo selected y esa sera la opcion
+        que estara selecciona al principio, predeterminadamente es la primera opción la que esta
+        seleccionada-->
+        <!--A la etiqueta select se le puede agregar el atributo size que define cuantas opciones
+        seran visualizadas al mismo tiempo. Tambien se le puede agregar el atributo multiple el
+        cual le permite al usuario escoger más de una opcion-->
+        <label for="color">Elije un color</label>
+        <select name="color" id="color" size="3" multiple>
+            <option>Rojo</option>
+            <option>Amarillo</option>
+            <option selected>Verde</option>
+        </select>
+        <br>
+        <!--Es un area en la cual se puede escribir una gran cantidad de texto sin ningun tipo de
+        problema, puede tener los atributos rows y cols para definir su tamaño pero generalmente se
+        hace con CSS-->
+        <textarea rows="10" cols="30" name="mensaje"></textarea>
+        <br>
+        <!--Por defecto es de tipo submit enviando los datos, de esta forma el boton puede hacer lo
+        que le determinemos mediante JS-->
+        <button type="button" onclick="alert('Hola');">Boton</button>
+        <br>
+        <button type="submit">Enviar</button>
+        <br>
+        <input list="colores">
+        <!--De esta forma se genera una lista de posibles opciones de "autocompletar" para el
+        input que esta arriba pero cualquier color, no solo los del datalist son permitidos-->
+        <datalist id="colores">
+            <option>Rojo</option>
+            <option>Verde</option>
+            <option>Amarillo</option>
+            <option>Rosa</option>
+            <option>Negro</option>
+        </datalist>
+    </form>
+</body>
+</html>
