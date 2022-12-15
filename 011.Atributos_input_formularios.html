@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!--El atributo value sirve para asignar automaticamente un valor "por defecto" a un
+        input mientras readonly solo permite la visualización del contenido del input-->
+        <input type="text" name="name" value="Julián" readonly>
+        <br>
+        <!--El atributo disabled deshabilita un input, de esta forma este se pondra gris, este
+        campo tampoco sera enviado al enviar el formulario-->
+        <input type="text" name="surname" value="Guarnizo" disabled>
+        <br>
+        <!--El atributo maxlength determina cuantos caracteres podran ser escritos en un input-->
+        <input type="text" maxlength="4">
+        <br>
+        <!--En los input de numeros se definen los atributos max y min-->
+        <input type="number" max="4" min="0">
+        <br>
+        <!--De esta forma le permitimos al usuario agregar varios archivos a la ver en lugar de
+        solo uno-->
+        <input type="file" multiple>
+        <br>
+        <!--De esta forma se especifica una forma de llenar cierto input, en este caso solo
+        corresponde a letras y solo puede poner tres. El placeholder es un texto en el mismo
+        input que nos indica con que información rellenar ese input. El required hace que el
+        input deba ser llenado o no permitira el envio del formulario-->
+        <input type="text" pattern="[A-Za-z]{3}" placeholder="COL" required>
+        <input type="submit">
+        <br>
+        <!--De esta forma se le indica que debe saltar de 5 en 5 en los valores a rellenar el
+        input, igualmente los valores que podran enviarse seran los que cumplan la condicion-->
+        <input type="number" step="5">
+        <br>
+        <hr>
+        <br>
+        <!--El autocomplete nos brinda sugerencias para llenar un input, por defecto esta
+        activado pero lo podemos desactivar, se puede ubicar en cada input o en la etiqueta form
+        y así se aplica a todo el formulario-->
+        <input type="text" name="name" autocomplete="off">
+        <br>
+        <!--El autofocus hace que la pagina inmediatamente se enfoque en ese input, que de una
+        pueda ser rellenado-->
+        <input type="text" name="surname" autofocus>
+    </form>
+</body>
+</html>
