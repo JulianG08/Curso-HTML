@@ -1,0 +1,13 @@
+Se utiliza la etiqueta q para citas cortas, en caso de tener citas largas se utiliza la etiqueta
+blockquote y se puede indicar de que url provino mediante el atributo cite
+
+Las abreviaciones se usan con la etiqueta abbr, esta debe tener como atributo title con el
+significado de la abreviación
+
+La forma correcta de mostrar nuestra información de contacto es con la etiqueta address, se suele
+mostrar en cursiva
+
+El titulo de una obra debe ir en la etiqueta cite, usualmente es mostrado en cursiva
+
+Para hacer que un texto vaya de derecha a izquierda se usa la etiqueta bdo con el atributo dir con
+el valor rtl (right to left)
