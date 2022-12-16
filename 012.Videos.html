@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Se agrega la etiqueta video y dentro de esta la etiqueta source, en la etiqueta source
+    se pone la fuente del video con el atributo src y se informa el tipo con el atributo type
+    y digitando "video/formato del video" sea lo que sea, por ejemplo mp4. De forma predeterminada
+    el navegador no muestra los controles de reproducción, estos son agregados al poner el
+    atributo controls en la etiqueta video. Se le pueden agregar otros atributos como lo son
+    autoplay (reproduce el video automaticamente al cargar la pagina) y el muted (el video se
+    encuentra muteado al cargar la pagina)-->
+    <video controls>
+        <!--En caso de que algún navegador no sea capaz de reconocer el video en formato mp4
+        pasara a leer el siguiente-->
+        <source src="012.kirito se aleja de asuna.mp4" type="video/mp4">
+        <source src="012.kirito se aleja de asuna.ogv" type="video/ogg">
+    </video>
+</body>
+</html>
