@@ -1,0 +1,9 @@
+Este nos permite mostrar diferentes imagenes para diferentes dispositivos con diferenes tamaños de
+pantalla, se crea la etiqueta picture, dentro de esta se crean las etiquetas source, cada una debe
+tener el atributo media cuyo valor especifica bajo que condiciones se muestra "(min-width: 500px)"
+y el atributo srcset con el nombre de la imagen, es importante agregar al final un img en caso de
+que el navegador no pueda leer los source
+
+Se usa principalmente para ahorrar el ancho de banda, no es necesario intentar cargar una imagen
+grande si se va a ver en un pantalla pequeña, la otra razon es que no todos los navegadores pueden
+soportar los mismos formatos de imagen
