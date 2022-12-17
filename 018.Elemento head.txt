@@ -1,0 +1,18 @@
+Es un contenedor de metadatos, estos datos son sobre el documento HTML y no son visibles, estos
+definen el titulo del documento, juego de caracteres, estilos, scripts y otro tipo de información.
+entre sus etiquetas encontramos: <title>, <style>, <meta>, <link>, <script> y <base>
+
+El elemento title define el titulo del documento, este es el nombre de la pestaña al ser
+visualizado en el navegador y cuando buscas la web en un buscador
+
+El style se usa para definir CSS
+
+El link es para vincular hojas de estilo de CSS "<link rel="styleheet" href="styles.css">"
+
+El elemento meta define el conjunto de caracteres a usar e información que usada en motores de
+busqueda "<meta name)"author" content="Julian Guarnizo>"
+
+El script sirve para introducir codigo de JavaScript
+
+El elemento base define la url que se va a usar para todas las url relativas de haya en la pagina
+"<base href="https://kikopalomares.com/images/" target="_blank">"
