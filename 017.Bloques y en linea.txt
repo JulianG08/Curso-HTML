@@ -1,0 +1,72 @@
+Todos los elementos html tienen un valor de visualización siendo de dos tipos: block e inline
+
+Los elementos que son tipo block siempre comienzan en una nueva linea y ocupan todo el ancho
+disponible, algunas de estas son:
+<address>
+<dd>
+<figcaption>
+<header>
+<noscript>
+<table>
+<article>
+<div>
+<figure>
+<hr>
+<ol>
+<tfoot>
+<aside>
+<dl>
+<footer>
+<li>
+<p>
+<ul>
+<blockquote>
+<dt>
+<form>
+<main>
+<pre>
+<video>
+<canvas>
+<fieldset>
+<h1>-<h6>
+<nav>
+<section>
+
+Los elementos en linea solo ocupan el ancho que necesitan, estos son:
+<a>
+<big>
+<dfn>
+<kbd>
+<q>
+<span>
+<time>
+<abbr>
+<br>
+<em>
+<label>
+<samp>
+<strong>
+<tt>
+<acronrm>
+<button>
+<i>
+<map>
+<script>
+<sub>
+<var>
+<b>
+<cite>
+<img>
+<object>
+<select>
+<sup>
+<bdo>
+<code>
+<input>
+<output>
+<small>
+<textarea>
+
+El elemento div a menudo es usado como contenedor para otros elementos
+
+El elemento span tambien sirve como un contenedor, pero de textos
