@@ -1,0 +1,9 @@
+Es como distribuir el contenido de la web, alguanas de estas etiquetas son:
+<header>: Encabezado del documento o una sección
+<nav>: Contenedor enlaces de navegación
+<section>: Define un sección del documento
+<article>: Define un artículo
+<aside>: Define contenido al lado del contenido
+<footer>: Define el pide de pagina del documento
+<details>: Define detalles adicionales
+<summary>: Define un encabezado para el <details>
