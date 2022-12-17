@@ -1,0 +1,9 @@
+La etiqueta kbd es para entradas por teclado o por voz: "<p>Guarda pulsando <kbd>Ctrl + S</kbd></p>"
+
+La etiqueta samp es para outputs de programagas: "<p>Si introduces un valor mal, el programa
+devolverá: <samp>Error!</samp></p>"
+
+La etiqueta code representa un fragmento de codigo
+
+La etiqueta var representa variables ya sean de programación o matematicas:
+Einstein dijo: <var>E</var> = <var>mc</var><sup>2</sup>
