@@ -1,0 +1,10 @@
+Son una especie de caracteres (incluidos emojis) especiales o tienen algunos usos particulares,
+estas se pueden usar de acuerdo a un nombre o numero
+
+Uno de ellos es el Nom_breakin Space: &nbsp;/&#160; que permite mantener juntas palabras que deben
+estarlo
+
+< : &lt;/&#60;
+> : &gt;/&#62;
+& : &amp;/&#38;
+copyright : &copy;/&#169;
